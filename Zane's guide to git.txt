@@ -1,0 +1,21 @@
+Zane's guide to git:
+
+	Helpfull commands:
+
+mkdir ~/SPLEEF  	==  Creates a directory SPLEEF
+
+cd ~/SPLEEF     	==  Makes SPLEEF your current working directory
+
+git init        	== sets up git files
+
+touch README    	== creates a file called "README" in your current directory
+
+git add ###     	== this command adds files (###) to the staging area, ready to be commited
+
+git add .		== this adds everything in the directory to the staging area to be commited.
+
+git commit -m "commit" 	== Commits your files, adding the message "commit"
+
+git remote add origin https://github.com/username/Hello-World.git
+			== Creates a remote named "origin" pointing at your GitHub repository
+
