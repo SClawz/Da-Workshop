@@ -19,3 +19,8 @@ git commit -m "commit" 	== Commits your files, adding the message "commit"
 git remote add origin https://github.com/username/Hello-World.git
 			== Creates a remote named "origin" pointing at your GitHub repository
 
+git remote		== Shows all remotes that the depository has.
+
+git push [remote-name] [branch name]
+			== Push the finished stuff to the internet repository.
+
